@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.github.rosestack</groupId>
+    <artifactId>rose-mybatis-parent</artifactId>
+    <version>${revision}</version>
+    <relativePath>../rose-mybatis-parent/pom.xml</relativePath>
+  </parent>
+
+  <groupId>io.github.rosestack</groupId>
+  <artifactId>rose-mybatis-bom</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
+
+  <name>Rose :: MyBatis :: Dependencies</name>
+  <description>Rose MyBatis Dependencies</description>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.github.rosestack</groupId>
+          <artifactId>rose-mybatis-spring-boot</artifactId>
+        <version>${revision}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.github.rosestack</groupId>
+        <artifactId>rose-mybatis-core</artifactId>
+        <version>${revision}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
