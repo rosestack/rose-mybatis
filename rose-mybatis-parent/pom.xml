@@ -20,7 +20,7 @@
     <properties>
         <rose-java.version>0.0.3-SNAPSHOT</rose-java.version>
         <rose-spring.version>0.0.1-SNAPSHOT</rose-spring.version>
-        <mybatis-plus.version>3.5.14</mybatis-plus.version>
+        <mybatis-plus.version>3.5.15</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
